@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>VTMC mokymai</title>
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/logo.png" alt="logo">
+    </header>
+    <section class="main">
+        <h1>Naujausi kursai</h1>
+
+        <div class="flex-cards">
+            <div class="card">
+                <img class="card-img" src="img/php.jpg" alt="php">
+                <div class="card-content">
+                    <h2><a href="#">PHP Pagrindai</a></h2>
+                    <p class="autorius">Autorius</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum semper est, et pharetra nibh efficitur sed. Ut euismod iaculis orci sed cursus. Suspendisse potenti.</p>
+                    <div class="rating-comment">
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="comment">
+                            <i class='fas fa-comment'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/css.jpg" alt="html">
+                <div class="card-content">
+                    <h2><a href="#">HTML/CSS Įvadas</a></h2>
+                    <p class="autorius">Autorius</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum semper est, et pharetra nibh efficitur sed. Ut euismod iaculis orci sed cursus. Suspendisse potenti.</p>
+                    <div class="rating-comment">
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="comment">
+                            <i class='fas fa-comment'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/git.jpg" alt="git">
+                <div class="card-content">
+                    <h2><a href="#">Pažintis su GIT</a></h2>
+                    <p class="autorius">Autorius</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum semper est, et pharetra nibh efficitur sed. Ut euismod iaculis orci sed cursus.</p>
+                    <div class="rating-comment">
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <div class="comment">
+                            <i class='fas fa-comment'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="img/js.jpg" alt="js">
+                <div class="card-content">
+                    <h2><a href="#">JavaScript Žaliems</a></h2>
+                    <p class="autorius">Autorius</p>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum semper est, et pharetra nibh efficitur sed. Ut euismod iaculis orci sed cursus.</p>
+                    <div class="rating-comment">
+                        <div class="rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <div class="comment">
+                            <i class='fas fa-comment'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="main-form">
+        <h1>Sekite naujienas</h1>
+        <p>Norite gauti pranešimus apie naujausius kursus? Užsisakykite mūsų naujienlaiškį!</p>
+    </section>
+
+    <form>
+        <form name="subscribe" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            <label for="name">Vardas</label><br>
+            <input type="text" id="name" name="vardas"><br>
+            <label for="email">El. paštas</label><br>
+            <input type="email" id="email" name="pastas">
+        </form>
+        <input type="submit" class="btn" id="submit" value="Užsisakyti">
+    </form>
+
+    <footer>
+        <p class="copyright">© 2020 Greta Skikaitė-Jagėlienė</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

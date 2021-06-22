@@ -1,0 +1,155 @@
+body {
+    background-color: #f8f8f8;
+    font-family: 'Exo', sans-serif;
+}
+
+header,
+.card {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .1);
+}
+
+#logo {
+    height: 60px;
+    margin: 20px;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #6eb92b;
+}
+
+.main h1,
+.main-form,
+footer,
+.flex-cards {
+    margin: 5vh 8vw 5vh 8vw;
+}
+
+.flex-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+i {
+    color: #6eb92b;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+h2 {
+    color: #6eb92b;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p {
+    color: #697070;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.card-content {
+    padding: 0 10px 10px 10px;
+}
+
+.description {
+    border-top: 1px solid #697070;
+    border-bottom: 1px solid #697070;
+    padding: 8px 0 8px 0;
+}
+
+font p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.card-img {
+    width: 300px;
+}
+
+.rating-comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-star {
+    color: #ededed;
+}
+
+.checked {
+    color: #6eb92b;
+}
+
+/*bottom - form*/
+
+.main-form h1,
+.main-form p {
+    margin: 5px 0;
+    padding: 0;
+}
+
+#name,
+#email {
+    padding: 10px 0 10px 0;
+    margin: 5px 0 20px 0;
+    border: solid 1px #ededed;
+    border-radius: 0.2rem;
+    width: 50%;
+}
+
+form {
+    margin: 5vh 8vw 0 8vw;
+}
+
+.btn {
+    border: none;
+    background-color: #6eb92b;
+    color: #ffffff;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+    border-radius: 0.2rem;
+    margin: 0 8vw 5vh 8vw;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.03) perspective(1px);
+    transition-timing-function: ease-in;
+}
+
+.copyright {
+    border-top: 1px solid #697070;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 960px) {
+
+    #name,
+    #email {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    #name,
+    #email {
+        width: 100%;
+    }
+}
